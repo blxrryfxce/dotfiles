@@ -1,0 +1,18 @@
+# wallust v3.4
+backend = "kmeans"
+palette = "dark"
+colorspace = "lch"
+threshold = 1
+
+[templates]
+# Pywal-compatible palette
+colorpalette = { src = "palette.txt", dst = "~/.config/wallpapers/colorpalette/palette.txt", pywal = true, max_depth = 1 }
+
+
+
+# Alacritty colors
+colors-alacritty = { template = 'colors-alacritty.toml', target = '~/.config/wallpapers/colorpalette/alacritty_colors.toml' }
+
+# GTK 4.0 and 3.0 the
+colors-gtk4 = { template = 'gtk.css', target = '~/.config/gtk-4.0/gtk.css' }
+colors-gtk3 = {template = 'colors.css', target = '~/.config/gtk-3.0/colors.css'}
