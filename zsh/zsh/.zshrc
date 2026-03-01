@@ -20,7 +20,7 @@ fi
 # NEW
 ZSH="$HOME/.config/.oh-my-zsh"
 
-ZSH_CUSTOM="$HOME/.config/hypr/themes/"
+ZSH_CUSTOM="$HOME/.config/zsh/"
 ZSH_THEME="my"
 
 
@@ -143,3 +143,6 @@ export LS_COLORS='di=fg#FFAAAA:ln=fg#FF7777:so=fg#FF5555:pi=fg#FFAA77:ex=fg#FFDD
 export EDITOR=nvim
 export VISUAL=nvim
 export PICO_SDK_PATH="$HOME/pico/pico-sdk"
+
+# Created by `pipx` on 2026-03-01 16:13:28
+export PATH="$PATH:/home/blurryface/.local/bin"

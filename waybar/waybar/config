@@ -1,0 +1,92 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": ["tray", "pulseaudio","temperature", "custom/cpu", "memory", "custom/battery"],
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "disable-scroll": false,
+    "tooltip": true,
+    "interval": 1
+  },
+
+  "custom/cpu": {
+    "exec": "~/.config/scripts/waybar/cpuHistory.sh",
+    "interval": 1,
+    "format": "{text}",
+    "tooltip": true,
+    "return-type": "json"
+  },
+
+  "memory": {
+    "format": "  {used} / {total} GB",
+    "tooltip": true,
+    "interval": 2
+  },
+
+  "temperature": {
+    "input-filename": "temp1_input",
+    "warning-threshold": 70,
+    "critical-threshold": 85,
+    "format-icons": [""],
+    "format": " {temperatureC}°C",
+    "format-warning": "  {temperatureC}°C",
+    "format-critical": " 󱗗 {temperatureC}°C",
+    "tooltip-format": "{temperatureC}°C {temperatureK}K {temperatureF}°F",
+    "interval": 4
+  },
+
+  "tray": {
+  	"icon-size": 21
+  },
+
+  "custom/battery": {
+    "exec": "~/.config/scripts/waybar/battery.sh",
+    "interval": 1
+  },
+
+  "clock": {
+    "format": "{:%H:%M} ",
+    "format-alt": "{:%A, %B %d, %Y (%R)} ",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode"          : "year",
+      "mode-mon-col"  : 3,
+      "weeks-pos"     : "right",
+      "on-scroll"     : 1,
+      "on-click-right": "mode",
+      "format": {
+        "months":     "<span color='#000000'><b>{}</b></span>",
+        "weeks":      "<span color='#1a1a1a'><b>W{}</b></span>",
+        "weekdays":   "<span color='#2b2b2b'><b>{}</b></span>",
+        "days":       "<span color='#404040'><b>{}</b></span>",
+        "today":      "<span color='#000000'><b><u>{}</u></b></span>"
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-click-forward": "tz_up",
+      "on-click-backward": "tz_down",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  },
+
+  "pulseaudio": {
+    "format": "{icon}  {volume}% ",
+    "format-bluetooth": "{icon}   {volume}% ",
+    "format-muted": "",
+    "format-icons": {
+      "alsa_output.pci-0000_00_1f.3.analog-stereo": "",
+      "alsa_output.pci-0000_00_1f.3.analog-stereo-muted": "",
+      "headphone": "",
+      "headset": "",
+      "default": ["", ""]
+    },
+    "scroll-step": 1,
+    "on-click": "pavucontrol"
+  }
+
+}

@@ -1,0 +1,74 @@
+/* General bar */
+* {
+  font-family: "DepartureMono Nerd Font Propo", monospace;
+  font-size: 12px;
+  
+  /*text color*/
+  color: rgba(0, 0, 0, 1);
+  background: transparent;
+}
+
+@define-color main-bg-color rgba(255, 255, 255, 0.732);
+
+.modules-right, .modules-center {
+  margin: 0 2px;
+  border-radius: 15px;
+  background-color: @main-bg-color;
+}
+
+#workspaces {
+  margin: 0 8px;
+}
+
+#workspaces button {
+  padding: 0 6px;
+  border-radius: 10px;
+  background: @main-bg-color;
+  color: black;
+}
+
+#workspaces button.active {
+  background: rgb(255, 255, 255);
+}
+
+#workspaces button:hover {
+  background: rgba(128, 255, 176, 0.809);
+}
+
+#custom-cpu, #memory, #temperature, #tray, #custom-battery, #clock, #pulseaudio {
+  margin: 0 8px;
+}
+
+
+/* CPU Usage Colors */
+#custom-cpu {
+}
+
+/* Memory Colors */
+#memory {
+}
+
+/* Temperature Colors */
+#temperature {
+}
+
+/* Network Colors */
+#tray {
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Battery Colors */
+#custom-battery {
+}
+
+/* Clock Colors */
+#clock {
+}
+
+/* Hover tooltip */
+tooltip {
+  background: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  padding: 4px 6px;
+}
