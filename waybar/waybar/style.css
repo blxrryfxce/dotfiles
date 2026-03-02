@@ -4,6 +4,7 @@
 @define-color white rgba(255, 255, 255, 1);
 @define-color black rgba(0, 0, 0, 1);
 
+
 /* General bar */
 * {
   font-family: "DepartureMono Nerd Font Propo", monospace;
@@ -13,12 +14,18 @@
   /*text color*/
   color: @black;
   background: transparent;
+  transition: all 0.1s ease-in-out;
+
 }
 
 .modules-right, .modules-center {
   margin: 0 2px;
   border-radius: 18px;
   background-color: @bg0;
+}
+
+.modules-right:hover {
+  background-color: @white;
 }
 
 #workspaces {
@@ -40,11 +47,25 @@
 }
 
 #workspaces button:hover {
-  background: @bg1;
+  padding: 2 15px;
+  background: @white;
 }
 
-#custom-cpu, #memory, #temperature, #tray, #custom-battery, #clock, #pulseaudio, #network {
-  margin: 0 8px;
+#custom-cpu, #memory, #temperature, #bluetooth, #custom-battery, #clock, #pulseaudio, #network {
+  margin: 5px 8px;
+  border-radius: 5px;
+}
+
+#custom-cpu:hover, 
+#memory:hover,
+#temperature:hover,
+#bluetooth:hover,
+#custom-battery:hover,
+#clock:hover,
+#pulseaudio:hover,
+#network:hover  {
+  background-color: @white;
+  padding: 0px 10px;
 }
 
 
@@ -81,7 +102,6 @@ tooltip {
   border: 2px;
   border-color: @black;
   padding: 4px 6px;
-  transition: all 0.1s ease-in-out;
 }
 
 tooltip-label {

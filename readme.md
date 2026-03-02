@@ -68,7 +68,7 @@ The rice focuses **primarily on aesthetic** but also on **productivity**.
 
 
 ## Installation
-also im bad at this, pick stuff that is interesting i dont recommend copying me.
+also im bad at this, pick stuff that is interesting i dont recommend copying me.2
 Clone the repo, i dont have a install.sh yet.
 
 ### Applications
