@@ -25,5 +25,5 @@ history="${history:0:$sampleSize}"
 echo "$history" > "$historyFile"
 
 tooltip="[ $history ] $usage%"
-text="  $usage%"
+text=" $usage%"
 echo "{\"text\": \"$text\", \"tooltip\": \"$tooltip\"}"

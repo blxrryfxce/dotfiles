@@ -1,32 +1,32 @@
-@define-color window_bg_color #13141A;
-@define-color window_fg_color #DEEEC2;
-@define-color view_bg_color #27292F;
-@define-color view_fg_color #DEEEC2;
-@define-color headerbar_bg_color #2685E3;
-@define-color headerbar_fg_color #DEEEC2;
-@define-color card_bg_color #2A84DD;
-@define-color card_fg_color #DEEEC2;
-@define-color popover_bg_color #27292F;
-@define-color popover_fg_color #DEEEC2;
-@define-color dialog_bg_color #13141A;
-@define-color dialog_fg_color #DEEEC2;
+@define-color window_bg_color #18171D;
+@define-color window_fg_color #F5B7EE;
+@define-color view_bg_color #403E45;
+@define-color view_fg_color #F5B7EE;
+@define-color headerbar_bg_color #28134F;
+@define-color headerbar_fg_color #F5B7EE;
+@define-color card_bg_color #181332;
+@define-color card_fg_color #F5B7EE;
+@define-color popover_bg_color #403E45;
+@define-color popover_fg_color #F5B7EE;
+@define-color dialog_bg_color #18171D;
+@define-color dialog_fg_color #F5B7EE;
 
-@define-color accent_bg_color #2187E8;
-@define-color accent_fg_color #DEEEC2;
-@define-color accent_color #2187E8;
+@define-color accent_bg_color #591D7D;
+@define-color accent_fg_color #F5B7EE;
+@define-color accent_color #591D7D;
 
-@define-color success_bg_color #2685E3;
-@define-color success_fg_color #DEEEC2;
-@define-color success_color #2685E3;
+@define-color success_bg_color #28134F;
+@define-color success_fg_color #F5B7EE;
+@define-color success_color #28134F;
 
-@define-color warning_bg_color #57B7E8;
-@define-color warning_fg_color #DEEEC2;
-@define-color warning_color #57B7E8;
+@define-color warning_bg_color #786EBB;
+@define-color warning_fg_color #F5B7EE;
+@define-color warning_color #786EBB;
 
-@define-color error_bg_color #2A84DD;
-@define-color error_fg_color #DEEEC2;
-@define-color error_color #2A84DD;
+@define-color error_bg_color #181332;
+@define-color error_fg_color #F5B7EE;
+@define-color error_color #181332;
 
-@define-color borders #1D89EE;
-@define-color sidebar_bg_color #27292F;
-@define-color sidebar_fg_color #DEEEC2;
+@define-color borders #7C1AC8;
+@define-color sidebar_bg_color #403E45;
+@define-color sidebar_fg_color #F5B7EE;

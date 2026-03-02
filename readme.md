@@ -25,12 +25,6 @@ The rice focuses **primarily on aesthetic** but also on **productivity**.
 
 ---
 
-## 💻 IDE / Editors
-- **Visual Studio Code**  
-- **Neovim (NVIM)**  
-
----
-
 ## 🎨 Wallpaper & Colors
 - **Wallust** - fetches wallpapers & color palettes  
 - **swaybg** - wallpaper backend  
@@ -52,6 +46,7 @@ The rice focuses **primarily on aesthetic** but also on **productivity**.
 - **Battery script** - tracks battery level (used in status bar)  
 - **Zoom** - zoom in/out using `MOD + numpad (+/-)`  
 - **getWallpaper** - fetches wallpaper from Waypaper config
+- **reload** - will toggle waybar, reload everything and fetch wallpaper color with wallust.
 
 ---
 
@@ -68,8 +63,12 @@ The rice focuses **primarily on aesthetic** but also on **productivity**.
 ## 🔔 Notification Daemon
 - **Mako** - lightweight notifications  
 
+## Network Manager gui
+- **nmgui** - available in the waybar by pressing on network module. (needs **nmcli** - for backend).
+
 
 ## Installation
+also im bad at this, pick stuff that is interesting i dont recommend copying me.
 Clone the repo, i dont have a install.sh yet.
 
 ### Applications
