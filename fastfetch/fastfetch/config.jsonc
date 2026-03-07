@@ -4,51 +4,51 @@
         "type": "file",
         "source": "/home/blurryface/.config/ascii/logo.txt",
         "color": {
-            "1": "\u001b[38;2;64;62;69m",
-            "2": "\u001b[38;2;162;100;156m",
-            "3": "\u001b[38;2;232;144;223m"
+            "1": "\u001b[38;2;39;41;47m",
+            "2": "\u001b[38;2;139;156;112m",
+            "3": "\u001b[38;2;199;223;160m"
         }
     },
     "display": {
         "separator": " : ",
         "color": {
-            "keys": "\u001b[38;2;120;110;187m",
-            "separator": "\u001b[38;2;64;62;69m",
-            "title": "\u001b[38;2;120;110;187m"
+            "keys": "\u001b[38;2;87;183;232m",
+            "separator": "\u001b[38;2;39;41;47m",
+            "title": "\u001b[38;2;87;183;232m"
         }
     },
     "modules": [
         {
             "type": "title",
             "color": {
-                "user": "\u001b[38;2;120;110;187m",
-                "at": "\u001b[38;2;120;110;187m",
-                "host": "\u001b[38;2;120;110;187m"
+                "user": "\u001b[38;2;87;183;232m",
+                "at": "\u001b[38;2;87;183;232m",
+                "host": "\u001b[38;2;87;183;232m"
             }
         },
         "separator",
-        {"type": "os", "key": " OS", "keyColor": "\u001b[38;2;232;144;223m"},
-        {"type": "host", "key": " Host", "keyColor": "\u001b[38;2;226;141;217m"},
-        {"type": "kernel", "key": " Kernel", "keyColor": "\u001b[38;2;217;137;210m"},
-        {"type": "uptime", "key": "󰔟 Uptime", "keyColor": "\u001b[38;2;209;133;202m"},
-        {"type": "packages", "key": "󰏖 Packages", "keyColor": "\u001b[38;2;201;129;194m"},
-        {"type": "shell", "key": " Shell", "keyColor": "\u001b[38;2;194;126;188m"},
-        {"type": "display", "key": "󰍹 Display", "keyColor": "\u001b[38;2;185;122;180m"},
-        {"type": "wm", "key": " WM", "keyColor": "\u001b[38;2;177;117;173m"},
-        {"type": "theme", "key": "󰉼 Theme", "keyColor": "\u001b[38;2;169;113;165m"},
-        {"type": "icons", "key": "󰀻 Icons", "keyColor": "\u001b[38;2;162;110;159m"},
-        {"type": "font", "key": " Font", "keyColor": "\u001b[38;2;154;106;151m"},
-        {"type": "cursor", "key": "󰇀 Cursor", "keyColor": "\u001b[38;2;145;102;143m"},
-        {"type": "terminal", "key": " Terminal", "keyColor": "\u001b[38;2;137;98;136m"},
-        {"type": "terminalfont", "key": " Terminal Font", "keyColor": "\u001b[38;2;130;94;130m"},
-        {"type": "cpu", "key": "󰻠 CPU", "keyColor": "\u001b[38;2;122;90;122m"},
-        {"type": "gpu", "key": "󰢮 GPU", "keyColor": "\u001b[38;2;113;86;114m"},
-        {"type": "memory", "key": "󰍛 Memory", "keyColor": "\u001b[38;2;105;82;106m"},
-        {"type": "swap", "key": "󰓡 Swap", "keyColor": "\u001b[38;2;98;79;100m"},
-        {"type": "disk", "key": "󰋊 Disk", "keyColor": "\u001b[38;2;90;75;93m"},
-        {"type": "localip", "key": "󰩟 Local IP", "keyColor": "\u001b[38;2;81;71;85m"},
-        {"type": "battery", "key": "󰁹 Battery", "keyColor": "\u001b[38;2;73;67;77m"},
-        {"type": "locale", "key": "󰗊 Locale", "keyColor": "\u001b[38;2;64;62;69m"},
+        {"type": "os", "key": " OS", "keyColor": "\u001b[38;2;199;223;160m"},
+        {"type": "host", "key": " Host", "keyColor": "\u001b[38;2;193;216;156m"},
+        {"type": "kernel", "key": " Kernel", "keyColor": "\u001b[38;2;185;207;150m"},
+        {"type": "uptime", "key": "󰔟 Uptime", "keyColor": "\u001b[38;2;177;198;145m"},
+        {"type": "packages", "key": "󰏖 Packages", "keyColor": "\u001b[38;2;169;189;139m"},
+        {"type": "shell", "key": " Shell", "keyColor": "\u001b[38;2;163;182;135m"},
+        {"type": "display", "key": "󰍹 Display", "keyColor": "\u001b[38;2;155;173;129m"},
+        {"type": "wm", "key": " WM", "keyColor": "\u001b[38;2;147;163;123m"},
+        {"type": "theme", "key": "󰉼 Theme", "keyColor": "\u001b[38;2;139;154;118m"},
+        {"type": "icons", "key": "󰀻 Icons", "keyColor": "\u001b[38;2;132;147;113m"},
+        {"type": "font", "key": " Font", "keyColor": "\u001b[38;2;124;138;107m"},
+        {"type": "cursor", "key": "󰇀 Cursor", "keyColor": "\u001b[38;2;116;129;102m"},
+        {"type": "terminal", "key": " Terminal", "keyColor": "\u001b[38;2;108;120;96m"},
+        {"type": "terminalfont", "key": " Terminal Font", "keyColor": "\u001b[38;2;102;112;92m"},
+        {"type": "cpu", "key": "󰻠 CPU", "keyColor": "\u001b[38;2;94;103;86m"},
+        {"type": "gpu", "key": "󰢮 GPU", "keyColor": "\u001b[38;2;86;94;80m"},
+        {"type": "memory", "key": "󰍛 Memory", "keyColor": "\u001b[38;2;78;85;75m"},
+        {"type": "swap", "key": "󰓡 Swap", "keyColor": "\u001b[38;2;71;78;70m"},
+        {"type": "disk", "key": "󰋊 Disk", "keyColor": "\u001b[38;2;63;69;64m"},
+        {"type": "localip", "key": "󰩟 Local IP", "keyColor": "\u001b[38;2;55;60;59m"},
+        {"type": "battery", "key": "󰁹 Battery", "keyColor": "\u001b[38;2;47;51;53m"},
+        {"type": "locale", "key": "󰗊 Locale", "keyColor": "\u001b[38;2;39;41;47m"},
         "break",
         "colors",
         "break"
