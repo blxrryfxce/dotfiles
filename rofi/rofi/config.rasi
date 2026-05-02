@@ -165,4 +165,7 @@ configuration {
       directories-first: true;
       sorting-method:    "name";
   }
+
 }
+
+@theme "mytheme"
