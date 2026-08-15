@@ -10,7 +10,7 @@ Everything is symlinked using gnu-stow and points to ~/.config
 
 ## Terminal
 
-- **Alacritty** - spawns as a floating window with custom ASCII art, binded to `SUPER + ENTER`
+- **Kitty** - spawns as a floating window with custom ASCII art, binded to `SUPER + ENTER`
 
 ---
 
@@ -26,7 +26,7 @@ Everything is symlinked using gnu-stow and points to ~/.config
 ---
 ## File Manager
 
-- **Thunar** - lightweight alternative  
+- **Thunar** - lightweight alternative, binded to `SUPER + T`
 
 ---
 
@@ -50,16 +50,14 @@ Everything is symlinked using gnu-stow and points to ~/.config
 ---
 
 ## Scripts
-- **Battery script** - tracks battery level (used in status bar)  
-- **Zoom** - zoom in/out using `SUPER + numpad (+/-)`  
-- **getWallpaper** - fetches wallpaper from Waypaper config
-- **reload** - will toggle waybar, reload everything and fetch wallpaper color with wallust.
+- Various scripts in bin as "helpers"
+- user scripts will have the usable scripts such as ascii switcher etc.
 
 ---
 
 ## Configs
 - **Custom hyprland.conf**
-- **Custom Alacritty.toml**
+- **Custom Kitty/alacritty**
 - **Custom wallust.toml**
 - **Custom waybar**
 - **Custom .zsh**
@@ -89,6 +87,8 @@ Everything is symlinked using gnu-stow and points to ~/.config
 ---
 
 ## Applications
+outdated
+
 - `sudo pacman -Syu --needed alacritty waybar thunar neovim swaybg firefox btop flameshot mako lxappearance qt5ct qt6ct xfce4-settings xfce4-panel nmcli nmgui blueman`
 
 - `yay -S --needed rofi wallust waypaper`
