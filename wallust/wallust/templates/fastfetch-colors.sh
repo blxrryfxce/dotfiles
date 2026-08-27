@@ -95,7 +95,7 @@ cat > "$output_file" << EOF
     "\$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
     "logo": {
         "type": "file",
-        "source": "/home/blurryface/.config/ascii/logo.txt",
+        "source": "/home/blurryface/.config/ascii/current.txt",
         "color": {
             "1": "${color0_ansi}",
             "2": "${color8_ansi}",
