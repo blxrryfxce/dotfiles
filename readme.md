@@ -51,7 +51,7 @@ Everything is symlinked using gnu-stow and points to ~/.config
 
 ## Scripts
 - Various scripts in bin as "helpers"
-- user scripts will have the usable scripts such as ascii switcher etc.
+- user scripts will have the usable scripts such as ascii switcher, pfp switcher, etc.
 
 ---
 
