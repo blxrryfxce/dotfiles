@@ -146,3 +146,7 @@ export PICO_SDK_PATH="$HOME/pico/pico-sdk"
 
 # Created by `pipx` on 2026-03-01 16:13:28
 export PATH="$PATH:/home/blurryface/.local/bin"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
